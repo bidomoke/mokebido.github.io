@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.5),#0676d1), url(fa.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 200vh;
+}
+.navbar{
+  width: 200px;
+  height: 75px;
+  margin: auto;
+}
+
+img{
+    width: 75px;
+    height: 75px;
+    padding-left: 35px;
+    float: left;
+    padding-top: 20px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: 1px solid #fff ;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    background: #fff;
+    color:#0676d1 ;
+}
+
+
+
+.page{
+    width: 55rem;
+    padding: 20px;
+    position: absolute; 
+    top: 15%;
+    left: 15%;
+    transform: translate(-50,-50);
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    font-family: 'Source sans Pro', Calibri,tahoma,sans-serif;
+    font-size: 16px;
+    color: #fff;
+}
+.infophoto{
+    height: 120px;
+}
+.info{
+    float: left;
+}
+.photo{
+    float: right;
+}
+.section{
+    margin-bottom: 70px;
+    text-align: justify;
+}
+.sec-gauche{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.sec-droite{
+    margin-left: 150px;
+   
+}
+h2{
+    font-size: 28px;
+    color: #ff7200;
+    border-bottom: 3px solid #fff;
+}
+.duree{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+    
+}
+.titre{
+
+    font-weight: bold;
+    font-size: 20px;
+    
+
+}
+#forma-gauche p {
+    margin-bottom: 40px;
+}
+#exp-gauche P{
+    margin-top: 5px;
+    
+}
+#lang-droite-sub p{
+    margin-top: 0px;
+}
+#lang-droite{
+    line-height: 23.50px;
+}
+
+@media screen and (max-width:500px){
+ 
+    ul li {
+        font-size: 12px;
+        border: none;
+        list-style: none;
+        margin-left: 1%;
+        margin-top: 25px;
+  
+    }
+    ul li a{
+        border-bottom-left-radius: 5px;
+        padding: 5px 7px;
+    }
+    .search{
+        width: 30px;
+        float: left;
+        margin-left: 25%;
+    
+    }
+.srch{
+    width: 250px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    left: 80px;
+}
+.navbar{
+    width: 250px;
+    height: 75px;
+    margin: auto;
+  }
+  .main{
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.5),#0676d1), url(fa.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 230vh;
+}
+.menu{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.page{
+    width: 85%;
+    padding: 17px;
+    position: absolute; 
+    top: 10%;
+    left: 2.5%;
+    transform: translate(-50,-50);
+    background: rgba(0,0,0,0.4);
+    text-align: center;
+    font-family: 'Source sans Pro', Calibri,tahoma,sans-serif;
+    font-size: 12px;
+    height: 65px;
+    
+}
+.infophoto{
+    height: 0;
+    
+}
+.info{
+    float: left;
+    position: relative;
+    margin-top: 10;
+}
+.photo{
+    position: absolute;
+    width: 35%;
+    top: 1px;
+    height: 350%;
+    margin-left: 50%;
+}
+.section{
+    margin-bottom: 1px;
+    text-align: justify;
+}
+.sec-gauche{
+    float: left;
+    font-weight: bold;
+    font-size: 17px;
+}
+.sec-droite{
+    position: relative;
+   
+    margin-left: 100px;
+    font-size: 14px;
+   
+}
+h2{
+    margin-top: 90px;
+    font-size: 15px;
+    color: #ff7200;
+    border-bottom: 3px solid #fff;
+}
+.duree{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 16px;
+    
+}
+.titre{
+
+    font-weight: bold;
+    font-size: 18px;
+  
+
+}
+#forma-gauche p {
+    margin-bottom: 35px;
+}
+#exp-gauche P{
+    margin-top: 3px;
+    margin-left: 30px;
+    
+}
+#la{
+    margin-top: 50px;
+    
+}
+#lang-droite-sub p{
+    margin-top: 0px;
+}
+#lang-droite{
+    line-height: 20px;
+}
+#su{
+    margin-top: 5px;
+}
+
+}
+

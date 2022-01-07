@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.5),#0676d1), url(fa.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+}
+.navbar{
+  width: 200px;
+  height: 75px;
+  margin: auto;
+}
+
+img{
+    width: 75px;
+    height: 75px;
+    padding-left: 35px;
+    float: left;
+    padding-top: 20px;
+}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 20px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bold;
+    padding: 5px 20px;
+    border: 1px solid #fff ;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    background: #fff;
+    color:#0676d1 ;
+}
+.search{
+    width: 33px;
+    float: left;
+    margin-left: 300px;
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 400px;
+    height: 30px;
+    background: transparent;
+    border: 1px solid #fff;
+    margin-top: 80px;
+    color: #fff;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+    border-top-left-radius: 20px;
+}
+.btn{
+    width: 200px;
+    height: 30px;
+    background: #fff;
+    border: 2px solid #fff;
+    margin-top: 25px;
+    color:#0676d1 ;
+    font-size: 15px;
+    border-bottom-right-radius:20px ;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius:20px ;
+    position: relative;
+    left: 100px;
+}
+.btn:focus{
+    outline: none;
+}
+.srch:focus{
+    outline: none;
+}
+.baniere-text{
+    text-align: center;
+    color: #fff;
+    padding: 100px;
+}
+.par{
+    font-family:sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+    padding-left: 50px;
+    text-align: center;
+}
+.baniere-text h1{
+    font-family: 'Time New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    padding-top: 9%;
+    letter-spacing: 2px;
+    color: #ff7200;
+}
+
+img{
+    width: 75px;
+    height: 75px;
+    padding-left: 35px;
+    float: left;
+    padding-top: 20px;
+}
+@media screen and (max-width:500px){
+    img{
+        position: absolute;
+        width: 25%;
+        height: 13%;
+        left: 30%;
+        margin-top: 10%;
+        
+    }
+    ul li {
+        font-size: 12px;
+        border: none;
+        list-style: none;
+        margin-left: 1%;
+        margin-top: 25px;
+  
+    }
+    ul li a{
+        border-bottom-left-radius: 5px;
+        padding: 5px 7px;
+    }
+    .search{
+        width: 30px;
+        float: left;
+        margin-left: 25%;
+    
+    }
+.srch{
+    width: 250px;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 5px;
+    left: 80px;
+}
+.baniere-text{
+    padding: 100px;
+}
+.baniere-text h1{
+    font-family: 'Time New Roman';
+    font-size: 26px;
+    padding-left: 5%;
+    padding-top: 30%;
+    letter-spacing: 2px;
+    
+}
+span{
+    left: 30%;
+}
+.par{
+    font-family:sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 20px;
+    position: absolute ;
+    left: 5%;
+    padding-left: 1px;
+    text-align: center;
+}
+.navbar{
+    width: 250px;
+    height: 75px;
+    margin: auto;
+  }
+  .main{
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.5),#0676d1), url(fa.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 97vh;
+}
+.menu{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+
+}
